@@ -1,0 +1,6 @@
+  <view class="page-loading" hidden='{{show}}'>
+    <text>请稍等</text>
+  </view>
+  <view hidden='{{!show}}'>
+   <slot ></slot>
+ </view>
